@@ -1,0 +1,80 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Body */
+body{
+    font-family: 'Segoe UI',sans-serif;
+    background: #f4f4f4;
+}
+/* Header Section */
+header{
+    background-color: #2c3e50;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* LOGO */
+.logo{
+    color: white;
+    font-size: 24;
+    font-weight: bold;
+}
+/* Navbar */
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li{
+    position: relative;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    display: block;
+    transition: background-color 0.3s;
+}
+.nav-links a:hover{
+    background-color: #34495e;
+    border-radius: 4px;
+}
+/* dropdown menu */
+.dropdown-content{
+    position:absolute;
+    top: 100%;
+    left: 0;
+    background-color: #34495e;
+    border-radius: 4px;
+    display: none;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content li{
+    width: 100%;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+/* main content */
+.main-content{
+    text-align: center;
+    padding: 80px 20px;
+
+}
+/* main content h1 */
+.main-content h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+/* main content p */
+.main-content p{
+    font-size: 1.2rem;
+    color: #555;
+}
+
